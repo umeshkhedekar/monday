@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- ===== CSS ===== -->
+   <link rel="stylesheet" href="style.css">
+   <!-- ===== Boxicons CSS ===== -->
+   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+   <!--==== Cdn link ====-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ===== Title ===== -->
+   <title>Website Planet</title>
+   <link rel="icon" href="./Image/306921013_180349474498662_2696928526696293829_n.jpg" type="image/x-icon">
+</head>
+<body>
+    <!--======= Navbar =======-->
+    <nav>
+        <div class="nav-bar">
+            <span class="logo navLogo"><a href="#" id="d"><span id="s">W</span>ebsitePlanet</a></span>
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#" id="d"><span id="s">W</span>ebsitePlanet</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="login"><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+                <div class="searchBox">
+                    <div class="searchToggle">
+                        <i class='bx bx-x cancel'></i>
+                        <i class='bx bx-search search'></i>
+                    </div>
+                    <div class="search-field">
+                     <input type="text" placeholder="Search...">
+                     <i class='bx bx-search'></i>
+                 </div>
+                </div>
+            </div>
+            <i class='bx bx-menu sidebarOpen' ></i>
+        </div>
+    </nav>
+
+<!--======= HOme Section ======= -->
+<section class="home" id="home">
+    <div class="firstt">
+      <div class="main">
+        <div class="name">
+            <div class="message">
+                Hi There!
+            </div>
+            <h1>I Am <span>UMESH  KHEDEKAR</span></h1>
+            <h3>  '<span></span></h3><br>
+            <p>Far far away, behind the word mountains,far from <br>the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <button><a href="Here.html">HIRE ME<i class="fa-solid fa-arrow-right"></i></a></button> <button id="xa"><a href="#">VIEW PORTFOLIO <i class="fa-solid fa-arrow-right"></i></a>  </button>
+            <div class="ceo" id="imageSlider"></div>
+        </div>
+        </div>
+        <div class="as">
+            <img src="./img/ca9fc318b886e94f955210931d96caff.png">
+          
+        </div>
+    </div>
+  </section>
+<!--========= About section =========-->
+  <section class="About" id="About">
+    <div class="container">
+        <div class="tabs">
+            <button class="tab active" id="A-1" onclick="showSection('about', this)">About Me</button>
+            <button class="tab" id="A-2" onclick="showSection('skills', this)">Skills</button>
+            <button class="tab" id="A-3" onclick="showSection('experience', this)">Experience</button>
+        </div>
+        <div id="about" class="section">
+            <h2>About</h2><br>
+            <p>A full-stack developer is a developer or engineer who can build both the <h3>front end and the back end of a website</h3>. The front end (the parts of a website a user sees and interacts with) and the back end (the behind-the-scenes data storage and processing) require different skill sets.</p>
+            <p>the skills and ability  complete a product independently. </p>
+        </div>
+        <div id="skills" class="section" style="display:none;">
+            <h2>Skills</h2><br>
+            <div class="Ac">
+                <h4>Frontend</h4>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <!-- Add more skills as needed -->
+            </ul>
+            <h4>Backend</h4>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Django</li>
+                <li>Php</li>
+            </ul>
+            <h4>Database</h4>
+            <ul>
+                <li>Microsoft SQL</li>
+                <li>My SQL</li>
+                <li>MangoDB</li>
+               
+            </ul>
+            </div>
+        </div>
+        <div id="experience" class="section" style="display:none;">
+            <h2>Experience</h2><br>
+            <p>As a 3-year experienced full stack developer, you should have a strong foundation in both front-end and back-end development. On the front-end, you should have experience working with HTML, CSS, JavaScript, and one or more popular libraries such as jQuery or React.</p>
+            <!-- Add more content as needed -->
+        </div>
+    </div>
+ </section>
+
+<section class="sub">
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="./slide img/portrait-indigenous-person-integrated-into-modern-life.jpg" alt="Image 1"></div>
+            <div class="slide"><img src="./slide img/programming-background-collage.jpg" alt="Image 2"></div>
+            <div class="slide"><img src="./slide img/scene-with-diverse-young-people-being-digital-nomads-working-remotely-from-dreamy-locations.jpg" alt="Image 3"></div>
+        </div>
+        <div class="indicators">
+            <span class="indicator" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+        </div>
+    </div>
+    <div class="A-5">
+        <h2>Subscribe</h2><br>
+        <p>Froala builds editing software for fast development with better developer and user experience in mind.</p><br>
+        <p>Subscribe to our product and stay connected to latest features!</p>
+       <form method="post" id="my" onsubmit="showAlert(); return false;">
+        <input type="text"  id="inputEmail" name="inputEmail" placeholder="Entre Your Email Address" required><button type="submit">Submit</button>
+       </form>
+    </div>
+</section>
+<footer>
+   <div class="rt">
+    <p>Copyright&copy; 2024 <a href="#" id="nnn"><span>W</span>ebsitePlanet</a>. All rights reserved.</p>
+    <div  class="icco">
+        <a href="https://www.instagram.com/umesh.khedekar.796?igsh=MWxraWJjcW1tYmF0bQ=="><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/umesh.khedekar.796?mibextid=hIlR13"> <i class="fa-brands fa-facebook"></i></a>
+       
+        <i class="fa-brands fa-twitter"></i>
+        <a href="https://wa.me/qr/EODRKGHUTJJVJ1"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+   </div>
+</footer>
+</body>
+<script src="index.js"></script>
+</html>

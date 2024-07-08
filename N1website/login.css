@@ -1,0 +1,515 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width:500px;
+  margin: 100px auto;
+  padding:20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/*button {
+  width: 100%;
+  padding: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  
+}
+*/
+
+
+.hidden {
+  display: none;
+}
+
+.password-container {
+  position: relative;
+}
+
+.show-password {
+  position: absolute;
+  right: 180px;
+  top: 25px;
+  cursor: pointer;
+  font-size:25px;
+ 
+}
+.show-passwordd{
+  position: absolute;
+  right: 10px;
+  top:1px;
+  cursor: pointer;
+  font-size:25px;
+ 
+}
+
+.profile {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+ /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+  text-align: center;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+/*-----------------------------------*/
+
+#loginForm{
+  width:500px;
+  margin-left:80px;
+}
+#loginForm h2{
+  margin-left: -150px;
+}
+#loginForm button{
+  margin-top:20px;
+  width:330px;
+  padding: 15px;
+  background: #3fe547;
+  border:none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+#loginForm input{
+  margin-top:20px;
+  padding:15px;
+  text-align: center;
+  max-width: 300px;
+}
+
+#dc{
+  display: flex;
+  margin-top: -15px;
+}
+#dc input{
+  width: 20px;
+}
+#dc p{
+  margin-left:15px;
+  margin-top:30px;
+}
+#A-1{
+  display:flex;
+  margin-top: 15px;
+  width:600px;
+}
+#A-1 button{
+ background:none;
+ border: none;
+ color: blue;  
+ width:160px;
+ margin-left:-10px;
+ font-size:px;
+ margin-top: -5px;
+}
+@media (max-width: 790px) {
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  .container {
+   box-shadow:none;
+  }
+  #signInContainer{
+   width: 100%;
+    margin-left:0px;
+    margin-right:0px;
+  }
+  #loginForm{
+    width:280px;
+    margin-left:0px;
+  }
+  #loginForm h2{
+    margin-left:50px;
+  }
+  #loginForm button{
+    margin-top:20px;
+    width:290px;
+    padding: 15px;
+    background: #3fe547;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  #loginForm input{
+    margin-top:20px;
+    padding:15px;
+    margin-left:10px;
+    max-width: 300px;
+    width: 250px;
+  }
+  
+  #dc{
+    display: flex;
+    margin-top: -15px;
+  }
+  #dc input{
+    width: 20px;
+  }
+  #dc p{
+    margin-left:15px;
+    margin-top:30px;
+  }
+  #A-1{
+    display:flex;
+    margin-top: 15px;
+    width:300px;
+  }
+  #A-1 button{
+   background:none;
+   border: none;
+   color: blue;  
+   width:120px;
+   margin-left:5px;
+   font-size:15px;
+   margin-top: -5px;
+  }
+}
+/*----------signin page --------------*/
+
+
+#signInForm input{
+  width:250px;
+  padding:15px;
+}
+#B-5{
+  display: flex;
+}
+#B-5 input{
+  width:200px;
+  margin-left:15px;
+  text-align: center;
+}
+#B-6{
+  display: flex;
+  margin-top:15px;
+}
+#B-6 input{
+  width:200px;
+  margin-left:15px;
+  text-align: center;
+}
+#B-6 select{
+  width:230px;
+  padding: -10px;
+  margin-left: 15px;
+  height:48px;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+#B-7 input{
+  width:445px;
+  margin-left:15px;
+  text-align: center;
+  margin-top:15px;
+}
+#B-8{
+  display: flex;
+  margin-top:15px;
+}
+#B-8 input{
+  width:200px;
+  margin-left:15px;
+  text-align: center;
+}
+
+#signInForm button{
+  margin-top:20px;
+  width:480px;
+  padding: 15px;
+  background: #3fe547;
+  border:none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-left: 15px;
+}
+#A-9{
+  display:flex;
+  margin-top: 15px;
+  width:600px;
+  margin-left:25px;
+}
+#A-9 button{
+  background:none;
+  border:none;
+  color: blue;  
+  width:190px;
+  margin-left:-25px;
+  font-size:px;
+  margin-top: -5px;
+ }
+
+ #z-1{
+  display: flex;
+  margin-left:650px;
+  font-size:20px;
+  margin-top: -40px;
+ }
+ #z-9{
+  margin-top: -10px;
+ }
+ #profileContainer h2{
+     margin-top: -20px;
+ }
+ #profileContainer{
+  background-color: none;
+ }
+ #profileContainer button{
+  background: red;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  width: 100px;
+ }
+ @media (max-width: 790px) {
+  #signInForm{
+    width:100%;
+    margin-left:0px;
+    margin-right: 0px;
+   
+   
+  }
+  #signInForm form{
+    width:400;
+    display:table;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+  }
+  #signInForm input{
+    width: 300px;
+    padding: 15px;
+  }
+  #B-5{
+    display:table;
+  }
+  #B-5 input{
+    width:250px;
+    margin-left:10px;
+    text-align: center;
+  }
+  #B-6{
+    display:table;
+    margin-top:15px;
+
+  }
+  
+  #B-6 input{
+    width:250px;
+    margin-left:10px;
+    text-align: center;
+  }
+  #B-6 select{
+    width:280px;
+    padding: -10px;
+    margin-left: 10px;
+    height:48px;
+    padding: 15px;
+    border-radius: 3px;
+  }
+  
+  #B-7 input{
+    width:250px;
+    margin-left:10px;
+    text-align: center;
+    margin-top:15px;
+  }
+  #B-8{
+    display:table;
+    margin-top:15px;
+  }
+  #B-8 input{
+    width:250px;
+    margin-left:10px;
+    text-align: center;
+  }
+  
+  #signInForm button{
+    margin-top:20px;
+    width:280px;
+    padding: 15px;
+    background: #3fe547;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  #A-9{
+    display:table;
+    margin-top: 15px;
+    width:0px;
+    margin-left:20px;
+  }
+  #A-9 button{
+    background:none;
+    border:none;
+    color: blue;  
+    width:200px;
+    margin-left:20px;
+    font-size:17px;
+    margin-top: -5px;
+   }
+   #A-9 p{
+    margin-left: 20px;
+   }
+  
+   /*-----------proflile---------------*/
+   #z-1{
+    display:flex;
+    margin-left:50px;
+    font-size:20px;
+    margin-top: -40px;
+   }
+   #z-9{
+    margin-top: -10px;
+   }
+   #profileContainer h2{
+       margin-top: -20px;
+   }
+   
+   #profileContainer{
+    background-color: none;
+    height:900px;
+   }
+   #profileContainer button{
+    background: red;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    width: 100px;
+   }
+ }
+
+ /*-----------back button ------------*/
+
+#m-1 button{
+  background:none;
+  margin-top: -80px;
+margin-left: -0px;
+
+max-width:100px;
+padding:3px;
+}
+
+#m-2 button{
+  background:none;
+  margin-top: -80px;
+margin-left: -80px;
+
+max-width:100px;
+padding:3px;
+}
+
+@media (max-width: 790px) {
+  #m-2{
+    margin-left:60px;
+    margin-top: -100px;
+  }
+  #m-1{
+    margin-left:-20px;
+    margin-top: -100px;
+  }
+}
+
+
+
+
+/*--======= Login open page ========--*/
+
+.z{
+  text-align:center;
+  margin-top: 150px;
+}
+.z a{
+text-decoration: none;
+color: #fff;
+}
+.z-1{
+border: 1px solid #000;
+width: 200px;
+padding:8px;
+border-radius:10px;
+margin-left:600px;
+background-color: #30df35;
+
+
+}
+.z-2{
+border: 1px solid #000;
+width: 200px;
+padding:8px;
+border-radius:10px;
+margin-left:600px;
+background-color: #30df35;
+margin-top: 30px;
+}
+.z-3{
+border: 1px solid #000;
+width: 200px;
+padding:8px;
+border-radius:10px;
+margin-left:600px;
+background-color: #30df35;
+margin-top: 30px;
+}
+#footerz{
+  margin-top:200px;
+}
+@media (max-width: 790px){
+.z-1{
+  margin-left:30px;
+}
+.z-2{
+  margin-left:30px;
+}
+.z-3{
+  margin-left: 30px;
+}
+#footerz{
+  margin-top:200px;
+}
+#m-3 button{
+  background: none;
+  color: #000;
+  margin-right:-600px;
+  font-size: 20px;
+}
+}
+#m-3 button{
+  background: none;
+  color: #000;
+  margin-left:-800px;
+  font-size: 20px;
+}
+
