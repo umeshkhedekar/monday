@@ -150,12 +150,4 @@ function showAlert() {
 
 //----------------------------------*//
 
-document.addEventListener('DOMContentLoaded', function() {
-    const storedUsername = localStorage.getItem('username');
-    if (!storedUsername) {
-        window.location.href = 'xx.html';
-    } else {
-        document.getElementById('profileUsername').textContent = `Welcome, ${storedUsername}!`;
-    }
-});
 
